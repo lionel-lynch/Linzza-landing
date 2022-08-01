@@ -1,0 +1,111 @@
+.contact-form {
+    padding: 126px 0;
+    background-color: #f9f9fb;
+}
+.contact-form__content {
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form__form-wrap {
+    width: 59.4%;
+}
+.contact-form__form {
+    padding: 66px 40px 44px 59px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.contact-form__input {
+    display: block;
+    width: 100%;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #73738d;
+    font-size: 20px;
+}
+.contact-form__item:nth-child(n+2) {
+    margin-top: 49px;
+    color: #73738d;
+}
+.contact-form__item--policy {
+    line-height: 1.4;
+}
+.contact-form__policy {
+    border-bottom: 1px solid #73738d;
+    color: #73738d;
+}
+.contact-form__submit-wrap {
+    margin-top: 43px;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-form__submit {
+    display: flex;
+    align-items: center;
+    padding: 15px 32px;
+    border: 1px solid $site-green;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-weight: 500;
+    color: $site-green;
+    background-color: transparent;
+}
+.contact-form__submit .arrow {
+    margin-left: 9px;
+}
+.contact-form__submit:hover {
+    color: #fff;
+    background-color: $site-green;
+    .arrow {
+        fill: #fff;
+    }
+}
+.contact-form__invite {
+    width: 33.6%;
+    padding-top: 80px;
+    text-align: right;
+
+    .invite-title {
+        font-weight: 500;
+        font-size: 36px;
+        color: #00194A;
+    }
+
+    .invite-descr {
+        margin-top: 50px;
+        line-height: 1.55;
+        font-size: 20px;
+        color: #73738D;
+    }
+
+    .invite-arrow {
+        margin-top: 44px;
+        position: relative;
+    }
+
+    .invite-arrow__icon {
+        transition: all 0.3s;
+    }
+
+    .invite-arrow--slide {
+        transform: translateX(-270px);
+    }
+}
+.contact-form__input::-webkit-input-placeholder {
+    color: #b2b9c9;
+}
+.contact-form__input:-moz-placeholder {
+    color: #b2b9c9;
+}
+.contact-form__input::-moz-placeholder {
+    color: #b2b9c9;
+}
+.contact-form__input:-ms-input-placeholder {
+    color: #b2b9c9;
+}
+.contact-form__input::-ms-input-placeholder {
+    color: #b2b9c9;
+}
+.contact-form__input::placeholder {
+    color: #b2b9c9;
+}

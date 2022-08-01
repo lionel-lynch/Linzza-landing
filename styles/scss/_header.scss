@@ -1,0 +1,65 @@
+.header {
+    position: relative;
+    padding: 30px 0 20px;
+}
+.header__content {
+    max-width: 1180px;
+    margin: auto;
+}
+.header__panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.header__company {
+    margin-left: 32px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.header__nav-list {
+    display: flex;
+    align-items: center;
+}
+.header__nav-item {
+    font-weight: 500;
+    transition: all 0.3s;
+    color: #73738D;
+    cursor: pointer;
+}
+.header__nav-item:hover {
+    color: $site-green;
+}
+.header__nav-item:nth-child(n+2) {
+    margin-left: 50px;
+}
+.header__contact-button {
+    display: block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: $site-green;
+    transition: all 0.3s;
+    color: #fff;
+}
+.header__contact-button:hover {
+    background-color: #0ab19e;
+}
+.header__burger {
+    display: none;
+}
+.burger-menu {
+    display: none; 
+}
+.header__sub-info {
+    margin-top: 20px;
+    color: #73738D;
+}
+.header-decor {
+    top: 35px;
+    right: 0;
+}
